@@ -113,10 +113,7 @@ Dashboards and visualizations are created using:
 ## 🛠️ Tech Stack
 - 🐍 Python  
 - 📊 Power BI  
-- 🧮 Pandas, NumPy  
-- 📈 Matplotlib, Seaborn  
-- 🌐 Plotly  
-- 🤖 Scikit-learn  
+- 🧮 Pandas, NumPy   
 
 ---
 
