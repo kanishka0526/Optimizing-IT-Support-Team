@@ -114,6 +114,173 @@ The project involves **data extraction, cleaning, exploratory analysis, and dash
 - Created GitHub repository and structured project files
 
 ---
+# 📊 Week 5 – Power BI Basics
+
+## 🔑 KPI (Key Performance Indicator)
+- Numeric value that shows performance
+- Summarizes complex data into one insight
+- Used in dashboards
+- Easy to understand at a glance
+- Example: Total Sales, Profit
+
+---
+
+## 📂 Types of Data in Power BI
+
+### 1. Categorical Data
+- Cannot perform mathematical operations
+- Used for grouping and comparing
+- Example: Product Category, Country
+
+### 2. Numerical Data
+- Mathematical operations can be performed
+- Used for measures, averages, percentages
+- Example: Sales, Quantity
+
+### 3. Time-Based Data
+- Data recorded over time
+- Shows trends, growth, or decline
+- Example: Date, Month, Year
+
+> **Data type decides the chart type**
+
+---
+
+## 📈 Charts in Power BI
+
+**Bar Chart**
+- Compare categories
+
+**Pie Chart**
+- Shows proportions (100% total)
+- Best for 5–6 categories
+
+**Card**
+- Shows a single value
+- Represents KPI
+
+**Line Chart**
+- Used for time-based data
+- Shows trends over time
+
+---
+
+## 🧩 Data Modeling
+
+**Data Modeling**
+- Organizing tables and defining relationships
+
+**Fact Table**
+- Contains measurable data
+- Large table
+- Contains foreign keys
+
+**Dimension Table**
+- Contains descriptive data
+- Provides context to fact table
+
+---
+
+## 🔑 Keys
+
+**Primary Key**
+- Unique identifier
+- Cannot be NULL
+
+**Foreign Key**
+- Connects to primary key of another table
+- Used to create relationships
+
+---
+
+## ⭐ Star Schema
+- One fact table connected to multiple dimension tables
+- Simple and recommended structure in Power BI
+
+---
+
+## 🔗 Relationships
+
+**One-to-Many:** One record → Many records  
+**Many-to-One:** Many records → One record  
+**Many-to-Many:** Many ↔ Many  
+**One-to-One:** One ↔ One  
+
+---
+### ✅ Task
+- Created Star Schema using Data Modeling.
+
+---
+  # 📊 Week 6 – DAX and Measures in Power BI
+
+## 🧠 DAX (Data Analysis Expressions)
+- The brain of Power BI
+- Used to summarize data for better visualization
+- Used to create measures
+- Used to perform calculations
+- Requires tables with relationships
+
+---
+
+## 📏 Measures in Power BI
+- Created using DAX
+- Used to calculate numeric values
+- Not stored as part of the table
+- Used in visuals for analysis
+
+---
+
+## ➕ Creating a Measure
+- Created using the New Measure option
+- Written using DAX expressions
+
+---
+
+## 🎯 Why Use Measures
+- Provide better control over calculations
+- Improve report performance
+- Can be reused across multiple visuals
+
+---
+
+## 📂 Types of Measures
+
+**Base Measure**
+- Created from a column in a table
+
+**Composite Measure**
+- Created using two or more measures
+
+---
+
+## 🔥 CALCULATE Function
+- One of the most important DAX functions
+- Used to apply filters inside a measure
+- Used to calculate values under specific conditions
+
+**Syntax:**
+
+---
+
+## 🎛️ Slicers
+- Interactive filters in reports
+- Used in report view
+- Allow users to select and filter values
+
+---
+
+## ⚙️ Conditional Logic in DAX
+
+**IF**
+- Executes logic when condition is TRUE
+
+**IF ELSE**
+- Executes one logic when condition is TRUE and another when FALSE
+
+**Nested IF**
+- Uses multiple IF conditions to handle multiple scenarios
+
+---
 
 ## 🛠️ Tools & Technologies Used
 - Power BI
